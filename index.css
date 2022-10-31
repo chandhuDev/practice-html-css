@@ -1,0 +1,24 @@
+span.a{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: rgb(208, 0, 255);
+    border: 2px solid black;
+}
+span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: rgb(47, 0, 255);
+}
+span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: rgb(196, 211, 35);
+}
