@@ -1,24 +1,57 @@
-span.a{
+.container{
+ margin:0;
+ padding: 0;
+ max-width: 100%;
+ min-height: 70px;
+ border-bottom: 2px solid #35424a;
+ 
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.first-element{
+    width: 100%;
+    
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.items{
+ margin-top: 13px;
+
+}
+header{
+    background-color: #35424a;
+    
+    box-sizing: content-box;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+.h3-element{
+    float: left;
+    margin-left: 10rem;
+}
+nav{
+    float: right;
+    margin-right: 5rem;
+}
+
+li{
+    text-decoration: none;
     display: inline;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    background-color: rgb(208, 0, 255);
-    border: 2px solid black;
+    float: left;
+    margin-top: 3px;
+    padding: 5px 20px
+    
 }
-span.b {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    border: 1px solid blue;
-    background-color: rgb(47, 0, 255);
-}
-span.c {
-    display: block;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    border: 1px solid blue;
-    background-color: rgb(196, 211, 35);
+
+li:hover{
+    color: red;
+    
+    text-transform: uppercase;
+    
 }
